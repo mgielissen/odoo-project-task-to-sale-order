@@ -12,7 +12,7 @@
     'category': 'Administration',
     'version': '0.1',
 
-    'license': 'OPL-1',
+    #'license': 'OPL-1',
 
     #'images': ['images/main_screenshot.png'],
 
