@@ -1,0 +1,48 @@
+<odoo>
+  <data>
+
+    <record id="view_project_task_to_sale_order_project" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='privacy_visibility']" position="after">
+                <field name="allow_convert_task_to_quotation"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_project_task_to_sale_order_projecttasktype" model="ir.ui.view">
+        <field name="model">project.task.type</field>
+        <field name="inherit_id" ref="project.task_type_edit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='mail_template_id']" position="after">
+                <field name="allow_convert_task_to_quotation"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_project_task_to_sale_order_task" model="ir.ui.view">
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='description_page']" position="after">
+                <page name="order_info" string="Order Info">
+                  <group>
+                    <group>
+                      <field name="created_sale_order"/>
+                      <field name="product_template_ids" widget="many2many_tags"/>
+                      <field name="hide_create_order_button" invisible="1"/>
+                    </group>
+                  </group>
+                </page>
+            </xpath>
+
+            <xpath expr="//header" position="inside">
+              <button string="Create Order" type="object" name="create_order" attrs="{'invisible':[('hide_create_order_button', '=', True)]}"/>
+              <button string="Open Order" type="object" name="redirect_to_order" attrs="{'invisible':[('created_sale_order', '=', False)]}"/>
+            </xpath>
+        </field>
+    </record>
+
+  </data>
+</odoo>
