@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Project Task Convert to Sale Order",
+    'name': "Convert Project Task to Sale Order",
 
     'summary': """
-        Project Task Convert to Sale Order
+        Convert Project Task to Sale Order
     """,
 
     'author': "Andreas Wyrobek",

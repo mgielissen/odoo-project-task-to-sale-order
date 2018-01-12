@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from odoo import models, fields, api, exceptions
 
 
 class Project(models.Model):
@@ -59,6 +59,9 @@ class Task(models.Model):
 
     @api.multi
     def create_order(self):
+        if not len(self.partner_id):
+            raise exceptions.MissingError('You need to add a partner/customer to do this action!')
+
         sale_order = self.env['sale.order'].create({
             'partner_id': self.partner_id.id,
         })
