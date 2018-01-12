@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_task_to_sale_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-12 09:03+0000\n"
+"PO-Revision-Date: 2018-01-12 10:08+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.5\n"
+"Last-Translator: \n"
+"Language: de\n"
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,field_description:project_task_to_sale_order.field_project_project_allow_convert_task_to_quotation
+#: model:ir.model.fields,field_description:project_task_to_sale_order.field_project_task_type_allow_convert_task_to_quotation
+msgid "Allow convert Task to quoation"
+msgstr "Erlaube das Konvertieren von Aufgaben zu einem Angebot"
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,help:project_task_to_sale_order.field_project_task_type_allow_convert_task_to_quotation
+msgid ""
+"Allows to display the button in tasks to create a quoation from the task. If "
+"you want to see the button, you also need to check this field under the "
+"project"
+msgstr ""
+"Erlaubt das Anzeigen des Buttons \"Erstelle Angebot\" in Aufgaben. Um diesen "
+"Button zu sehen müssen Sie ebenfalls diese Option in den Projekt-"
+"Einstellungen anhaken."
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,help:project_task_to_sale_order.field_project_project_allow_convert_task_to_quotation
+msgid ""
+"Allows to display the button in tasks to create a quoation from the task. If "
+"you want to see the button, you also need to check this field under the stage"
+msgstr ""
+"Erlaubt das Anzeigen des Buttons \"Erstelle Angebot\" in Aufgaben. Um diesen "
+"Button zu sehen müssen Sie ebenfalls diese Option in den Projektstufen-"
+"Einstellungen anhaken."
+
+#. module: project_task_to_sale_order
+#: model:ir.ui.view,arch_db:project_task_to_sale_order.view_project_task_to_sale_order_task
+msgid "Create Order"
+msgstr "Erstelle Angebot"
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,field_description:project_task_to_sale_order.field_project_task_hide_create_order_button
+msgid "Hides the create order button"
+msgstr "Verbirgt den Button zum erstellen des Angebotes"
+
+#. module: project_task_to_sale_order
+#: model:ir.ui.view,arch_db:project_task_to_sale_order.view_project_task_to_sale_order_task
+msgid "Open Order"
+msgstr "Öffne Angebot"
+
+#. module: project_task_to_sale_order
+#: model:ir.ui.view,arch_db:project_task_to_sale_order.view_project_task_to_sale_order_task
+msgid "Order Info"
+msgstr "Angebotsinformationen"
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,field_description:project_task_to_sale_order.field_project_task_product_template_ids
+msgid "Products"
+msgstr "Produkte"
+
+#. module: project_task_to_sale_order
+#: model:ir.model,name:project_task_to_sale_order.model_project_project
+msgid "Project"
+msgstr "Projekt"
+
+#. module: project_task_to_sale_order
+#: model:ir.model.fields,field_description:project_task_to_sale_order.field_project_task_created_sale_order
+msgid "Reference to Sale Order"
+msgstr "Referenz zum Angebot"
+
+#. module: project_task_to_sale_order
+#: model:ir.model,name:project_task_to_sale_order.model_project_task
+msgid "Task"
+msgstr "Aufgabe"
+
+#. module: project_task_to_sale_order
+#: model:ir.model,name:project_task_to_sale_order.model_project_task_type
+msgid "Task Stage"
+msgstr "Aufgabenstufe"

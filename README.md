@@ -1,7 +1,7 @@
 Odoo 11 - Project Task to Sale Order
 ===============
 
-![odoo11](http://runbot.odoo.com/runbot/badge/flat/1/11.0.svg)
+![11.0 success](https://img.shields.io/badge/11.0-success-brightgreen.svg)
 
 With this module you can easily convert a ProjectTask to a SaleOrder. 
 
@@ -15,6 +15,14 @@ If you now click on "create order", it creates the order with the products in th
 Now you have the button "open order" to go to the order.
 
 To create another order you have to delete the reference.
+
+Also see: https://apps.odoo.com/apps/modules/11.0/project_task_to_sale_order/
+
+Available Languages
+-----------
+![english](https://github.com/oxguy3/flags/raw/master/mini/gb.png)
+![german](https://github.com/oxguy3/flags/raw/master/mini/de.png)
+
 
 Credits
 =======
@@ -41,7 +49,7 @@ LTC: LeLF1hZnRAkCUe9zXvRfqDCmjU4EUQrgvU
 
 Further information
 ===================
-
+Odoo App Page: https://apps.odoo.com/apps/modules/11.0/project_task_to_sale_order/
 
 News
 -----------

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Project Task Convert to Sale Order",
+    'name': "Convert Project Task to Sale Order",
 
     'summary': """
-        Project Task Convert to Sale Order
+        Convert Project Task to Sale Order
     """,
 
     'author': "Andreas Wyrobek",
@@ -12,9 +12,9 @@
     'category': 'Administration',
     'version': '0.1',
 
-    'license': 'OPL-1',
+    #'license': 'OPL-1',
 
-    #'images': ['images/main_screenshot.png'],
+    'images': ['images/main_screenshot.png'],
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'project', 'sale'],
